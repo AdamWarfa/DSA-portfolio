@@ -54,5 +54,5 @@ function ShuntingYard(input) {
 const testInputs = ["2 + 3 * 4", "85 - 31", "3 + 4 * ( 5 - 2 )", "( 5 + 9 ) / 4", "( 12 + 3 ) * ( 7 + 9 )", "23 ^ 2 - ( 13 * 9 ) + 5 / 7", "3 + 4 * 2 / ( 1 - 5 ) ^ 2 ^ 3"];
 
 for (const test of testInputs) {
-  console.log(test, " = ", ShuntingYaarrrdHuuhYeaah(test));
+  console.log(test, " = ", ShuntingYard(test));
 }
