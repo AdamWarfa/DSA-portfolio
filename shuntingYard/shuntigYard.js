@@ -1,7 +1,7 @@
 import Queue from "./queue.js";
 import Stack from "./stack.js";
 
-function ShuntingYaarrrdHuuhYeaah(input) {
+function ShuntingYard(input) {
   const outputQueue = new Queue();
   const operatorStack = new Stack();
   const precedence = {
